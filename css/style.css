@@ -1,0 +1,49 @@
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+  background-color:rgba(32, 178, 171, 0.452);
+  border-radius: 0.5em;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canvas{
+  border-radius: 0.5em;
+}
+
+.perdedor{
+  width: 200px;
+  height: 100px ;
+  margin: 0 auto;
+  position: absolute;
+  left: 45%;
+  top:110%;
+  background-color: rgba(0, 0, 255, 0.459);
+  visibility: hidden;
+}
+
+#colorPalabra{
+  color: red;
+}

@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+     <body class="cuerpo">
+       <div style="text-align:center; margin: 50px 0px;">
+           <h1 class="titulo"> Bienvenido al juego del Ahorcado</h1>
+           <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+       </div>
+      
+       <div style="text-align:center">
+           <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra" onkeypress="return(event.charCode >= 65 && event.charCode <=90)">
+           <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button> 
+       </div>
+    
+       <div style="text-align:center;" id="mensaje-error">
+           <canvas class="canvas" id="ahorcado" height="800px" width="1200px"></canvas>
+           <input type="text", id="letra" maxlength="1" onkeypress="return(event.charCode >= 65 && event.charCode <=90)">
+           <button class="ButtonJuego" id="button">Probar letra</button>
+       </div>
+       <div id="finDelJuego" class="perdedor"> Usted ha perdido!</div>
+       <script type="text/javascript" src="js/script.js"></script>
+       <script type="text/javascript" src="js/canvas.js"></script>
+       <script type="text/javascript" src="js/ahorcado.js"></script>
+       <script type="text/javascript" src="js/palabras.js"></script>
+     </body>
+</html>
