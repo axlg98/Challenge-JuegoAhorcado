@@ -45,7 +45,6 @@ function dibujarLetraIncorrecta(letraIncorrecta){
     if(titulo){
         dibujarPalabra("Letras incorrectas:", 700, 200);
         titulo = false;
-       // console.log(letraIncorrecta)
     }
     if((vecLetrasErradas.find(el=>el==letraIncorrecta) != letraIncorrecta) && juegoIniciar){
         vecLetrasErradas.push(letraIncorrecta)
