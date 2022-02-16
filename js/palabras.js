@@ -31,7 +31,7 @@ function dibujarLetraCorrecta(){
 
     var xLog= 400;
     for(var l = 0; l < vectorVacío.length; l++){
-        dibujarLetra(vectorVacío[l], xLog + l*60 ,600,"black");
+        dibujarLetra(vectorVacío[l], xLog + l*60 ,595,"black");
     }
     document.getElementById("letra").value = "";
     verificarGanador();
