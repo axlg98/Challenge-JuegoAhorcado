@@ -47,3 +47,32 @@
 #colorPalabra{
   color: red;
 }
+
+.footer{
+  background-color: lightslategray;
+  border-radius: 0.5em;
+  border: 1px;
+  
+}
+
+.github{
+  padding: 20px;
+  margin-bottom:10px;
+  display: inline;  
+  left: 50%;
+}
+
+ .linkedin{
+  position: relative;
+  display: inline;
+}
+
+.cuerpo{
+  background-color: rgba(32, 178, 171, 0.445);
+}
+
+.palabra{
+  color: blue;
+  display: inline;
+  text-align: center;
+}

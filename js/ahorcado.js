@@ -36,7 +36,7 @@ function dibujarAhorcado(contarFallos){
 function verificarGanador(){
     if(vectorVacío.join("") == palabraSecreta){
         document.getElementById("finDelJuego").style.visibility="visible";
-        document.getElementById("finDelJuego").innerHTML = "Felicidades, usted ha ganado.!"
+        document.getElementById("finDelJuego").innerHTML = "Felicidades, usted ha ganado!."
       } 
 }
 
